@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34197AE21F79EFC900B06993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34197AE11F79EFC900B06993 /* AppDelegate.swift */; };
+		34197AE41F79EFC900B06993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34197AE31F79EFC900B06993 /* ViewController.swift */; };
+		34197AE71F79EFC900B06993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34197AE51F79EFC900B06993 /* Main.storyboard */; };
+		34197AEA1F79EFC900B06993 /* Ponto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34197AE81F79EFC900B06993 /* Ponto.xcdatamodeld */; };
+		34197AEC1F79EFC900B06993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34197AEB1F79EFC900B06993 /* Assets.xcassets */; };
+		34197AEF1F79EFC900B06993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34197AED1F79EFC900B06993 /* LaunchScreen.storyboard */; };
+		34197AF91F7A068800B06993 /* CheckinAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34197AF81F7A068800B06993 /* CheckinAction.swift */; };
+		34197AFB1F7A082900B06993 /* ActionHIstoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34197AFA1F7A082900B06993 /* ActionHIstoryTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34197ADE1F79EFC900B06993 /* Ponto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ponto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34197AE11F79EFC900B06993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34197AE31F79EFC900B06993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34197AE61F79EFC900B06993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34197AE91F79EFC900B06993 /* Ponto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ponto.xcdatamodel; sourceTree = "<group>"; };
+		34197AEB1F79EFC900B06993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34197AEE1F79EFC900B06993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34197AF01F79EFC900B06993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34197AF81F7A068800B06993 /* CheckinAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckinAction.swift; path = ../../../../.Trash/CheckinAction.swift; sourceTree = "<group>"; };
+		34197AFA1F7A082900B06993 /* ActionHIstoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionHIstoryTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34197ADB1F79EFC900B06993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34197AD51F79EFC900B06993 = {
+			isa = PBXGroup;
+			children = (
+				34197AE01F79EFC900B06993 /* Ponto */,
+				34197ADF1F79EFC900B06993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34197ADF1F79EFC900B06993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34197ADE1F79EFC900B06993 /* Ponto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34197AE01F79EFC900B06993 /* Ponto */ = {
+			isa = PBXGroup;
+			children = (
+				34197AE11F79EFC900B06993 /* AppDelegate.swift */,
+				34197AE31F79EFC900B06993 /* ViewController.swift */,
+				34197AF81F7A068800B06993 /* CheckinAction.swift */,
+				34197AE51F79EFC900B06993 /* Main.storyboard */,
+				34197AEB1F79EFC900B06993 /* Assets.xcassets */,
+				34197AED1F79EFC900B06993 /* LaunchScreen.storyboard */,
+				34197AF01F79EFC900B06993 /* Info.plist */,
+				34197AE81F79EFC900B06993 /* Ponto.xcdatamodeld */,
+				34197AFA1F7A082900B06993 /* ActionHIstoryTableViewCell.swift */,
+			);
+			path = Ponto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34197ADD1F79EFC900B06993 /* Ponto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34197AF31F79EFC900B06993 /* Build configuration list for PBXNativeTarget "Ponto" */;
+			buildPhases = (
+				34197ADA1F79EFC900B06993 /* Sources */,
+				34197ADB1F79EFC900B06993 /* Frameworks */,
+				34197ADC1F79EFC900B06993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ponto;
+			productName = Ponto;
+			productReference = 34197ADE1F79EFC900B06993 /* Ponto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34197AD61F79EFC900B06993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jimysses;
+				TargetAttributes = {
+					34197ADD1F79EFC900B06993 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4KQWX7GB26;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 34197AD91F79EFC900B06993 /* Build configuration list for PBXProject "Ponto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34197AD51F79EFC900B06993;
+			productRefGroup = 34197ADF1F79EFC900B06993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34197ADD1F79EFC900B06993 /* Ponto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34197ADC1F79EFC900B06993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34197AEF1F79EFC900B06993 /* LaunchScreen.storyboard in Resources */,
+				34197AEC1F79EFC900B06993 /* Assets.xcassets in Resources */,
+				34197AE71F79EFC900B06993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34197ADA1F79EFC900B06993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34197AEA1F79EFC900B06993 /* Ponto.xcdatamodeld in Sources */,
+				34197AF91F7A068800B06993 /* CheckinAction.swift in Sources */,
+				34197AFB1F7A082900B06993 /* ActionHIstoryTableViewCell.swift in Sources */,
+				34197AE41F79EFC900B06993 /* ViewController.swift in Sources */,
+				34197AE21F79EFC900B06993 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34197AE51F79EFC900B06993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34197AE61F79EFC900B06993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34197AED1F79EFC900B06993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34197AEE1F79EFC900B06993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34197AF11F79EFC900B06993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34197AF21F79EFC900B06993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34197AF41F79EFC900B06993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KQWX7GB26;
+				INFOPLIST_FILE = Ponto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jimysses.Ponto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34197AF51F79EFC900B06993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KQWX7GB26;
+				INFOPLIST_FILE = Ponto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jimysses.Ponto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34197AD91F79EFC900B06993 /* Build configuration list for PBXProject "Ponto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34197AF11F79EFC900B06993 /* Debug */,
+				34197AF21F79EFC900B06993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34197AF31F79EFC900B06993 /* Build configuration list for PBXNativeTarget "Ponto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34197AF41F79EFC900B06993 /* Debug */,
+				34197AF51F79EFC900B06993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34197AE81F79EFC900B06993 /* Ponto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34197AE91F79EFC900B06993 /* Ponto.xcdatamodel */,
+			);
+			currentVersion = 34197AE91F79EFC900B06993 /* Ponto.xcdatamodel */;
+			path = Ponto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34197AD61F79EFC900B06993 /* Project object */;
+}
